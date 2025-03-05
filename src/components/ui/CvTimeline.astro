@@ -35,7 +35,7 @@ const { elements, colored } = Astro.props
 				>
 					<time class='font-mono italic'>{element.time}</time>
 					<div class='text-lg font-black'>{isExperience(element) ? element.title : element.degree}</div>
-					<div>{element.description}</div>
+					<div class="text-left">{element.description}</div>
 					<div>{isExperience(element) ? element.company : element.school}</div>
 					<div>{element.location}</div>
 				</div>
