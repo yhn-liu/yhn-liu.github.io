@@ -1,6 +1,6 @@
 export const profile = {
 	fullName: 'Yuhan Liu',
-	title: 'Undergraduate Student',
+	title: 'UG Student',
 	institute: 'Southern University of Science and Technology',
 	author_name: 'Yuhan Liu', // Author name to be highlighted in the papers section
 	research_areas: [
