@@ -1,7 +1,7 @@
 export const experiences = [
 	{
 		company: 'Soulnd',
-		time: '2022 - ',
+		time: '2022 - current',
 		title: 'Cofounder & CTO',
 		location: 'CUHK-Shenzhen, China',
 		description: "Led a cross-university team to develop gamified music education applications using Django backend and Flutter/NextJS/ReactJS frontend, incorporating social psychology principles, and received recognition on ruanyf's weekly.",
