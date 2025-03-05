@@ -1,7 +1,7 @@
 export const experiences = [
 	{
 		company: 'Soulnd',
-		time: 'from October 2022 to current',
+		time: '2022 - ',
 		title: 'Cofounder & CTO',
 		location: 'CUHK-Shenzhen, China',
 		description: "Led a cross-university team to develop gamified music education applications using Django backend and Flutter/NextJS/ReactJS frontend, incorporating social psychology principles, and received recognition on ruanyf's weekly.",
@@ -18,7 +18,7 @@ export const experiences = [
 export const education = [
 	{
 		school: 'Southern University of Science and Technology',
-		time: 'Sep. 2021 to Jun. 2025',
+		time: '2021 - 2025',
 		degree: 'B.S. in Computer Science & Engineering',
 		location: 'Shenzhen, China',
 		description: 'Currently enrolled as a UG student and doing research with world-level researchers',
