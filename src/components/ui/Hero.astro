@@ -4,7 +4,7 @@ import { Image } from 'astro:assets'
 import SocialIcons from './SocialIcons.astro'
 
 
-const {fullName, title, institute, profilePicture} = Astro.props
+const {fullName, title, institute, description, profilePicture} = Astro.props
 ---
 <div class='flex-1'>
   <h1 class='text-4xl font-bold mb-4'>
@@ -12,8 +12,7 @@ const {fullName, title, institute, profilePicture} = Astro.props
   </h1>
   <p class='text-xl text-gray-600 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
   <p class='text-lg mb-6'>
-    Brief impactful description of your research focus and academic mission.
-    Highlight your key contributions and areas of expertise.
+    {description}
   </p>
   <div class='flex gap-4'>
     <SocialIcons />

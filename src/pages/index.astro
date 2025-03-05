@@ -8,7 +8,7 @@ import Hero from '@/components/ui/Hero.astro'
 import Grid from '@/components/ui/Grid.astro'
 import ArticleList from '@/components/ui/ArticleList.astro'
 
-const { fullName, title, institute, research_areas } = profile
+const { fullName, title, institute, description, research_areas } = profile
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -21,6 +21,7 @@ const { fullName, title, institute, research_areas } = profile
 			fullName={fullName}
 			title={title}
 			institute={institute}
+			description={description}
 			profilePicture={ProfilePictures}
 		/>
 	</section>

@@ -3,12 +3,18 @@ export const profile = {
 	title: 'UG Student',
 	institute: 'Southern University of Science and Technology',
 	author_name: 'Yuhan Liu', // Author name to be highlighted in the papers section
+	description: 'I am currently a junior student majoring in Computer Science and Engineering. My academic interests include Human-Computer Interaction and Computational Creativity. Additionally, music is a passion of mine, particularly songwriting and playing the electric guitar. My lifelong dream is to create something that contributes positively to making the world a better place.',
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
 		{
 			title: 'HCI',
 			description: 'Investigate the relationship between human beings and computers',
 			field: 'Computer Science & Design'
+		},
+		{
+			title: 'AI Ethics',
+			description: 'Study the ethical implications and responsible development of AI',
+			field: 'Computer Science'
 		}
 	],
 }
