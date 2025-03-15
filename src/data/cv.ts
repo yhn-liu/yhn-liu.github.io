@@ -44,14 +44,7 @@ export const skills = [
 ];
 
 export const publications = [
-	{
-		title: 'Unveiling bias in artificial intelligence: Exploring causes and strategies for mitigation',
-		authors: 'Yuhan Liu',
-		journal: 'Applied and Computational Engineering',
-		time: 'July 2024',
-		link: 'https://www.researchgate.net/publication/382296885_Unveiling_bias_in_artificial_intelligence_Exploring_causes_and_strategies_for_mitigation',
-		abstract: "With the rapid advancement of Artificial Intelligence (AI), the emergence of various AI models such as Stable Diffusion, ChatGPT, and MidJourney has brought numerous benefits and opportunities. Through users' extensive utilization, they have discovered biases towards gender, race, and other factors in these AI systems. This paper focuses on bias in AI and aims to investigate its causes and propose strategies for mitigation. Through a comprehensive literature review, the paper has explored the phenomenon of bias in AI-generated content. Furthermore, we examine the reasons behind bias and solutions from social and intelligence science perspectives. From a social science perspective, we examine the effects of gender bias in AI and highlight the importance of incorporating diversity and gender theory in machine learning. From an intelligence science standpoint, we explore factors like biased datasets, algorithmic fairness, and the role of machine learning randomness in group fairness. Additionally, we discuss the research methodology employed, including the literature search strategy and quantity assessment. The results and discussions confirm the existence of bias in current AI products, particularly in the underrepresentation of women in the AI development field. Finally, we present future perspectives on reducing bias in AI products, including the importance of fair datasets, improved training processes, and increased participation of female engineers and intelligence scientists in the AI field. By addressing bias in AI, the paper can strive for more equitable and responsible AI systems that benefit diverse users and promote social progress.",
-	},
+	
 	{
 		title: "Colin: A Multimodal Human-AI Co-Creation Storytelling System to Support children's Multi-Level Narrative Skills",
 		authors: 'Lyumanshan Ye, Jiandong Jiang, Yuhan Liu, Yihan Ran, Danni Chang*',
@@ -59,6 +52,15 @@ export const publications = [
 		time: 'April 2025',
 		link: 'http://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CHIEA25/356/b77d56cb-f2a4-11ef-ada9-16bb50361d1f/OUT/chiea25-356.html',
 		abstract: "Children develop narrative skills by understanding and actively building connections between elements, image-text matching, and consequences. However, it is challenging for children to clearly grasp these multi-level links only through explanations of text or facilitator's speech. To address this, we developed Colin, an interactive storytelling tool that supports children's multi-level narrative skills through both voice and visual modalities. In the generation stage, Colin supports facilitator to define and review generated text and image content freely. In the understanding stage, a question-feedback model helps children understand multi-level connections while co-creating stories with Colin. In the building phase, Colin actively encourages children to create connections between elements through drawing and speaking. A user study with 20 participants evaluated Colin by measuring children's engagement, understanding of cause-and-effect relationships, and the quality of their new story creations. Our results demonstrated that Colin significantly enhances the development of children's narrative skills across multiple levels.",
+	},
+
+	{
+		title: 'Unveiling bias in artificial intelligence: Exploring causes and strategies for mitigation',
+		authors: 'Yuhan Liu',
+		journal: 'Applied and Computational Engineering',
+		time: 'July 2024',
+		link: 'https://www.researchgate.net/publication/382296885_Unveiling_bias_in_artificial_intelligence_Exploring_causes_and_strategies_for_mitigation',
+		abstract: "With the rapid advancement of Artificial Intelligence (AI), the emergence of various AI models such as Stable Diffusion, ChatGPT, and MidJourney has brought numerous benefits and opportunities. Through users' extensive utilization, they have discovered biases towards gender, race, and other factors in these AI systems. This paper focuses on bias in AI and aims to investigate its causes and propose strategies for mitigation. Through a comprehensive literature review, the paper has explored the phenomenon of bias in AI-generated content. Furthermore, we examine the reasons behind bias and solutions from social and intelligence science perspectives. From a social science perspective, we examine the effects of gender bias in AI and highlight the importance of incorporating diversity and gender theory in machine learning. From an intelligence science standpoint, we explore factors like biased datasets, algorithmic fairness, and the role of machine learning randomness in group fairness. Additionally, we discuss the research methodology employed, including the literature search strategy and quantity assessment. The results and discussions confirm the existence of bias in current AI products, particularly in the underrepresentation of women in the AI development field. Finally, we present future perspectives on reducing bias in AI products, including the importance of fair datasets, improved training processes, and increased participation of female engineers and intelligence scientists in the AI field. By addressing bias in AI, the paper can strive for more equitable and responsible AI systems that benefit diverse users and promote social progress.",
 	},
 	// {
 	// 	title: 'The Radiation of Uranium Compounds',
