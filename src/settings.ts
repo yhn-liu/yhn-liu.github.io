@@ -26,7 +26,7 @@ export const social = {
 	x: 'https://x.com/YuhanLiuConnect',
 	github: 'https://github.com/yhn-liu',
 	gitlab: '',
-	scholar: '',
+	scholar: 'https://scholar.google.com/citations?user=YKDrnY0AAAAJ&hl=zh-TW',
 	inspire: '',
 	arxiv: '',
 }
