@@ -1,27 +1,27 @@
 export const profile = {
 	fullName: 'Yuhan Liu',
-	title: 'UG Student',
-	institute: 'Southern University of Science and Technology',
+	title: 'MSc Student',
+	institute: 'University of Copenhagen',
 	author_name: 'Yuhan Liu', // Author name to be highlighted in the papers section
-	description: 'I am currently a senior student majoring in Computer Science and Engineering. My academic interests include Human-Computer Interaction and Computational Creativity. Additionally, music is a passion of mine, particularly songwriting and playing the electric guitar. My lifelong dream is to create something that contributes positively to making the world a better place.',
+	description: 'I am currently a master student majoring in Computer Science. My academic interests include LLM agents, Bayesian reasoning, and Human-Computer interaction. My lifelong dream is to create something that contributes positively to making the world a better place.',
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		{
+			title: 'LLM Agents & Bayesian Reasoning',
+			description: 'Use PGM and Bayesian Reasoning to boost LLM agents' reasoning',
+			field: 'Computer Science'
+		},
 		{
 			title: 'HCI',
 			description: 'Investigate the relationship between human beings and computers',
 			field: 'Computer Science & Design'
-		},
-		{
-			title: 'AI Ethics',
-			description: 'Study the ethical implications and responsible development of AI',
-			field: 'Computer Science'
 		}
 	],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '12111811@mail.sustech.edu.cn',
+	email: 'wcj883@alumni.ku.dk',
 	linkedin: 'https://www.linkedin.com/in/yuhan-liu-10b65a344/',
 	x: 'https://x.com/YuhanLiuConnect',
 	github: 'https://github.com/yhn-liu',
@@ -44,6 +44,6 @@ export const template = {
 
 export const seo = {
 	default_title: "Yuhan Liu's Homepage",
-	default_description: 'Yuhan Liu is an undergraduate CS Student at SUSTech.',
+	default_description: 'Yuhan Liu is an CS Master Student at KU.',
 	default_image: '/images/astro-academia.png',
 }
