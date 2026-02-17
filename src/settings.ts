@@ -8,7 +8,7 @@ export const profile = {
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
 		{
 			title: 'LLM Agents & Bayesian Reasoning',
-			description: 'Use PGM and Bayesian Reasoning to boost LLM agents' reasoning',
+			description: 'Use PGM and Bayesian Reasoning to boost LLM agents\' reasoning',
 			field: 'Computer Science'
 		},
 		{
