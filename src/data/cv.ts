@@ -21,7 +21,14 @@ export const education = [
 		time: 'Sep. 2021 to Jun. 2025',
 		degree: 'B.S. in Computer Science & Engineering',
 		location: 'Shenzhen, China',
-		description: 'Currently enrolled as a UG student and doing research with world-level researchers',
+		description: 'Enrolled as a UG student and doing research with world-level researchers',
+	},
+	{
+		school: 'University of Copenhagen',
+		time: 'Sep. 2025 to current',
+		degree: 'MSc in Computer Science',
+		location: 'Copenhagen, Denmark',
+		description: 'Currently enrolled as a Master student and doing excellent research',
 	},
 	// {
 	// 	school: 'University of Paris',
